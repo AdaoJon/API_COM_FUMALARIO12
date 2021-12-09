@@ -1,0 +1,77 @@
+
+body{
+    font-family:sans-serif ;
+    color:black;
+    background-color: rgb(196, 234, 243);
+    font-size: 18px;
+    margin: 0;
+}
+.top-container{
+    text-align: center;
+    background-color: brown;
+    color:white;
+    margin: auto;
+    padding: 30px;
+}
+select{
+    line-height: 1.8em;
+    padding: 0px 8px;
+    font-size: 1.5em;
+}
+.form-container{
+    background-color:white;
+    padding: 30px;
+    margin: 20px;
+    min-width:50px;
+    border-radius: 7px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-button {
+    background-color: rgb(105, 93, 101);
+    border: 0;
+    color: white;
+   font-weight: bold;
+    padding: 10px;
+    width: 100%auto;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+form input{
+    line-height: 1.8em;
+    padding: 0px 8px;
+    font-size: 1em;
+}
+form label{
+    font-size: 0.9em;
+}
+nav ul li a{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration-line: none;
+}
+
+footer{
+    text-align: right;
+    color:white;
+    background-color:brown;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    text-align: justify;    
+}
+.veiculo{
+    color: red;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concessionária de Veiculos</title>
+    <link rel="stylesheet" href="./assets/css/style.css"> 
+       
+</head>
+<body>
+  <header>
+    <div class="foreground">
+      <div class="top-container" >
+        <h1>Esposições de Veiculos</h1>       
+      </div>
+      <nav>
+        <ul>
+          <li><a href="produtos.html">Consultar Veiculos</a></li>
+          <li><a href="produtos-create.html">Novos Veiculos</a></li>        
+        </ul>
+      </nav>
+    </div>
+  </header> 
+  <main>
+     <section class="form-container">
+           <form >
+               <h2 class="veiculo">Inclusão de Novos Veiculos</h2>
+               <div>
+               <label for="name">Nome</label>
+               <input type="text" name= "nome" id= "nome">
+               </div>
+               <div>
+               <label for="descricao">Descrição</label>
+               <textarea name= "descricao" id= "descricao"></textarea>
+               </div>
+               <div>
+                <label for="imagem">Imagem</label>
+                <input type="file" name="imagem" id="imagem">
+              </div>
+                <div>
+                <label for="fabricantes">Fabricante</label>
+                <select name="fabricantes_id" id="fabricantes"></select>
+              </div> 
+               <div>
+               <input type="submit" class="form-button">
+               </div>
+           </form>
+       </section>
+         </main>
+         <footer>
+           <p>Todos os direitos reservados. 
+           </p>
+         </footer>
+  <script src="./assets/js/produtos-create.js"></script>
+</body>
+</html>
