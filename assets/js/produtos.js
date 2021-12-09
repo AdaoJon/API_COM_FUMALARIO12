@@ -10,7 +10,7 @@
   <a href="produto.html?id=${produto.id}">
   <h2>${produto.nome}</h2>
   <img src="${produto.imagem}" width="200px"/>
-  <p></p>
+  <p>${produto.descricao}</p>
   </a>
   </div>`;
  
