@@ -4,7 +4,7 @@ const url = new URL(document.URL);
 const id = url.searchParams.get("id");
 
  const fetchData = async() => {
-  const result= await fetch(`http://localhost/produtos/${id}`);
+  const result= await fetch(`https://api-pw-21.herokuapp.com/produtos/${id}`);
   const produto = await result.json();
   produto.forEach((produto) => {
   section.innerHTML += `<div class="card">
