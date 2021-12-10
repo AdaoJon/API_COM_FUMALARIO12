@@ -10,7 +10,7 @@ const id = url.searchParams.get("id");
   section.innerHTML += `<div class="card">
   
   <h2>${produto.nome}</h2>
-  <img src="${produto.imagem}" width="100px"/>
+  <img src="${produto.imagem}" max-width: 100%;"/>
   <p>${produto.descricao}</p>
     </div>`;
 });
