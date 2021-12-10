@@ -4,13 +4,13 @@ body{
     color:black;
     background-color: rgb(196, 234, 243);
     font-size: 18px;
-    margin: 0 auto;
+    margin: 0;
 }
 .top-container{
     text-align: center;
     background-color: brown;
     color:white;
-    margin: auto;
+    margin: 0 auto;
     padding: 30px;
 }
 select{
